@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+
+  site:
+    image: krumware/tag-app-delivery:latest
+    build:
+      context: ../
+      dockerfile: website/Dockerfile
+    command: server
+    ports:
+      - "1313:1313"
+    volumes:
+      - ../.git:/src/.git
+      - ../website:/src/
