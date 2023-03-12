@@ -4,7 +4,7 @@ description: Sources, case-studies, examples, and further reading
 weight: 9
 ---
 
-## <i class="fas fa-users"></i> People 
+<!-- ## <i class="fas fa-users"></i> People  -->
 
 - https://slack.engineering/mobile-developer-experience-at-slack/
 - https://platformengineering.org/talks-library/netflix-platform-console-to-unify-engineering-experience
